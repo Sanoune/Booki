@@ -1,0 +1,14 @@
+{
+  "name": "booki-aba-sarah",
+  "version": "1.0.0",
+  "description": "Déploiement du projet Booki sur GitHub Pages",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'No build step required for this project'",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d ."
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  }
+}
